@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class BOHActionGameplayManager : MonoBehaviour
+public class Puzzle1GameplayManager : MonoBehaviour
 {
     public TextAsset beatmapFile;
     public GameObject approachCircles;
