@@ -4,6 +4,8 @@ public enum NPCSpriteEnum
     ArcadeWorkerDistraught,
     ArcadeWorkerHappy,
     ArcadeWorkerNeutral,
+    BandHappy,
+    BandNeutral,
     BandMember1Happy,
     BandMember2Happy,
     BandMember3Happy,

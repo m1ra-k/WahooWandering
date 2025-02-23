@@ -368,16 +368,7 @@ public class DialogueSystemManager : MonoBehaviour
         Sprite oldPopupSpeakerSprite = currentPopupMC.GetComponent<Image>().sprite;
         Sprite newPopupSpeakerSprite;
 
-        if (!baseDialogue.character.ToString().Equals("None")) 
-        {
-            newPopupSpeakerSprite = spriteCache.sprites["Little" + baseDialogue.character.ToString()];
-        }
-        else 
-        {
-            // TODO: do we ever want it to be transparent
-            newPopupSpeakerSprite = spriteCache.sprites["Transparent"];
-        }
-
+        newPopupSpeakerSprite = spriteCache.sprites["LittleMainCharacter"];
         
         if (!oldPopupSpeakerSprite.ToString().Equals(newPopupSpeakerSprite.ToString())) 
         {
@@ -402,7 +393,7 @@ public class DialogueSystemManager : MonoBehaviour
             normalCharacterName.GetComponent<TextMeshProUGUI>().text = baseDialogue.character.GetParsedName();
 
             // baseDialogue.character.GetParsedName().Equals("Tubby") ?
-            targetNormalDialogueWidth = 500f;
+            targetNormalDialogueWidth = -160f;
 
             if (normalDialogueRectTransform.sizeDelta.x != targetNormalDialogueWidth)
             {
@@ -456,38 +447,41 @@ public class DialogueSystemManager : MonoBehaviour
             {
                 switch (character)
                 {
-                    case "KittyEmployee":
-                        characterNumber = 0;
-                        audioSource.pitch = 1.75f;
-                        break;
-                    case "Nana":
-                        characterNumber = 3;
+                    case "MainCharacter":
+                        characterNumber = 2;
                         audioSource.pitch = 1.25f;
                         break;
-                    case "Tubby":
+                    case "Room53Resident":
+                        characterNumber = 2;
+                        audioSource.pitch = 1.25f;
+                        break;
+                    case "Room19Resident":
                         characterNumber = 0;
                         audioSource.pitch = 0.85f;
                         break;
-                    case "FriesManager":
+                    case "Room07Resident":
                         characterNumber = 2;
                         audioSource.pitch = 2f;
                         break;
-                    case "JollyWorker":
+                    case "BodosWorker":
                         characterNumber = 1;
                         audioSource.pitch = 0.95f;
                         break;
-                    case "SpaghettiWorker":
+                    case "ArcadeWorker":
                         characterNumber = 1;
                         audioSource.pitch = 1.9f;
                         break;
-                    case "RatWorker":
-                        characterNumber = 3;
+                    case "BandMember1":
+                        characterNumber = 1;
                         audioSource.pitch = 2f;
                         break;
-                    // need to do this for everyone
-                    default:
+                    case "BandMember2":
                         characterNumber = 0;
-                        audioSource.pitch = 1.75f;
+                        audioSource.pitch = 2f;
+                        break;
+                    case "BandMember3":
+                        characterNumber = 2;
+                        audioSource.pitch = 1.5f;
                         break;
                 }
 

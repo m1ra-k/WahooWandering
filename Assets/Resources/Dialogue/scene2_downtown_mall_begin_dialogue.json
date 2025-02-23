@@ -1,0 +1,541 @@
+{
+    "dialogues": [
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Time to dominate the Decades Arcade! But first, where is it…?",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Choice",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "...",
+                "textSpeed": 0
+            },
+            "conditionalChoices": [
+                {
+                    "choiceMapping": 2,
+                    "choiceDialogue": "Near Monticello"
+                },
+                {
+                    "choiceMapping": 4,
+                    "choiceDialogue": "Near Maru"
+                }
+            ],
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "No, that's too far.",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Choice",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "...",
+                "textSpeed": 0
+            },
+            "conditionalChoices": [
+                {
+                    "choiceMapping": 4,
+                    "choiceDialogue": "Near Maru"
+                }
+            ],
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "Alright, time to clean out the claw machines!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "ArcadeWorker",
+                "npcSprite": [
+                    "ArcadeWorkerNeutral"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "Hey there, welcome to Decades Arcade!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "ArcadeWorker",
+                "npcSprite": [
+                    "ArcadeWorkerNeutral"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "You here to conquer some old school cool or just soaking in the vibes?",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "ArcadeWorkerNeutral"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "Actually, I'm here to-",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "ArcadeWorker",
+                "npcSprite": [
+                    "ArcadeWorkerNeutral"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "Cash in tickets for our grand prize??",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "ArcadeWorkerNeutral"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "If the grand prize is the limited-ti-",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "ArcadeWorker",
+                "npcSprite": [
+                    "ArcadeWorkerDistraught"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "LIMITED-TIME TROLLEY SET?! NO PLEASE DON'T TAKE IT FROM ME!!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "ArcadeWorker",
+                "npcSprite": [
+                    "ArcadeWorkerNeutral"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "Oh… ummm. Sorry.",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "ArcadeWorkerNeutral"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "Uhhh… it's okay.",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "ArcadeWorkerNeutral"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "(Maybe I should head back early and tell the Lawnie they ran out…)",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "ArcadeWorker",
+                "npcSprite": [
+                    "ArcadeWorkerDistraught"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "It's okay? It's okay?? So…",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "ArcadeWorker",
+                "npcSprite": [
+                    "ArcadeWorkerHappy"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "THAT MEANS YOU ALSO LIKE TROLLEYS?",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "ArcadeWorkerHappy"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "Well, I-",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "ArcadeWorker",
+                "npcSprite": [
+                    "ArcadeWorkerHappy"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "FINALLY! ANOTHER TROLLEY ENTHUSIAST!!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "ArcadeWorker",
+                "npcSprite": [
+                    "ArcadeWorkerHappy"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "DID YOU KNOW THAT DOWNTOWN USED TO HAVE A TROLLEY SYSTEM?",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "ArcadeWorkerHappy"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "(I thought they still had a trolley…)",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "ArcadeWorker",
+                "npcSprite": [
+                    "ArcadeWorkerHappy"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "THE TOWN USED TO HAVE WIRES AND TRACKS ALL OVER THE PLACE!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "ArcadeWorker",
+                "npcSprite": [
+                    "ArcadeWorkerHappy"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "YOU COULD HEAR THE BELL OF THE ELECTRIC TROLLEY RING AS IT PASSED BY!!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "ArcadeWorker",
+                "npcSprite": [
+                    "ArcadeWorkerHappy"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "CAN YOU IMAGINE TAKING THE TROLLEY TO WORK? TO DECADES? TO DOWNTOWN?",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "ArcadeWorkerHappy"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "Y-yeah, that's so co-",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "ArcadeWorker",
+                "npcSprite": [
+                    "ArcadeWorkerHappy"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "ISN'T THAT SO COOL?!!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "ArcadeWorkerHappy"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "Yeah… it is.",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "ArcadeWorker",
+                "npcSprite": [
+                    "ArcadeWorkerNeutral"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "Anyway, if it's another trolley enthusiast trying to take the set home, I don't mind.",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "ArcadeWorker",
+                "npcSprite": [
+                    "ArcadeWorkerHappy"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "I'm sure she'll be in good hands with you.",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "ArcadeWorker",
+                "npcSprite": [
+                    "ArcadeWorkerDistraught"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "(But I really wanted it!!!! It's okay, me,",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "ArcadeWorker",
+                "npcSprite": [
+                    "ArcadeWorkerDistraught"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "you'll get a better trolley set someday.)",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "ArcadeWorkerDistraught"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "I'm actually here for the limited-time Cav Plushie event.",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "ArcadeWorkerDistraught"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "Is the event still going on?",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "ArcadeWorker",
+                "npcSprite": [
+                    "ArcadeWorkerNeutral"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "Ohhhhh! Yess, there are a few left, but they're only obtainable from the claw machines.",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "ArcadeWorker",
+                "npcSprite": [
+                    "ArcadeWorkerNeutral"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "The event gives you 3 minutes to win as many plushies as you can",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "ArcadeWorker",
+                "npcSprite": [
+                    "ArcadeWorkerNeutral"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "before they're gone forever!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "ArcadeWorker",
+                "npcSprite": [
+                    "ArcadeWorkerDistraught"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "(Just like the Downtown trolley…)",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "ArcadeWorkerNeutral"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "Awesome--thank you so much!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "ArcadeWorker",
+                "npcSprite": [
+                    "ArcadeWorkerHappy"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "Best of luck, fellow trolley enthusiast!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "[I'll have to quickly press the button when it appears",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "to perfect the timing of the claw drop!]",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1,
+            "endOfScene": true
+        }
+    ]
+}

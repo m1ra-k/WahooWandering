@@ -8,7 +8,7 @@
                     "Transparent"
                 ],
                 "bgSprite": "Transparent",                
-                "dialogue": "dairy market begin...",
+                "dialogue": "end...",
                 "textSpeed": 0
             },
             "jumpToIndex": -1
