@@ -368,16 +368,7 @@ public class DialogueSystemManager : MonoBehaviour
         Sprite oldPopupSpeakerSprite = currentPopupMC.GetComponent<Image>().sprite;
         Sprite newPopupSpeakerSprite;
 
-        if (!baseDialogue.character.ToString().Equals("None")) 
-        {
-            newPopupSpeakerSprite = spriteCache.sprites["Little" + baseDialogue.character.ToString()];
-        }
-        else 
-        {
-            // TODO: do we ever want it to be transparent
-            newPopupSpeakerSprite = spriteCache.sprites["Transparent"];
-        }
-
+        newPopupSpeakerSprite = spriteCache.sprites["LittleMainCharacter"];
         
         if (!oldPopupSpeakerSprite.ToString().Equals(newPopupSpeakerSprite.ToString())) 
         {
@@ -402,7 +393,7 @@ public class DialogueSystemManager : MonoBehaviour
             normalCharacterName.GetComponent<TextMeshProUGUI>().text = baseDialogue.character.GetParsedName();
 
             // baseDialogue.character.GetParsedName().Equals("Tubby") ?
-            targetNormalDialogueWidth = 500f;
+            targetNormalDialogueWidth = -160f;
 
             if (normalDialogueRectTransform.sizeDelta.x != targetNormalDialogueWidth)
             {
