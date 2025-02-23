@@ -94,31 +94,7 @@ public class DialogueSystemManager : MonoBehaviour
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         string sceneName = visualNovelJSONFile.name;
-
-        if (sceneName.Contains("bloody_burger"))
-        {
-            GameProgressionManager.PlayMusic(2);
-        }
-        else if (sceneName.Contains("kafe_kitty"))
-        {
-            GameProgressionManager.PlayMusic(0);
-        }
-        else if (sceneName.Contains("spaghetti_western"))
-        {
-            GameProgressionManager.PlayMusic(1);
-        }
-        else if (sceneName.Contains("jolly_roger"))
-        {
-            GameProgressionManager.PlayMusic(3);
-        }
-        else if (sceneName.Contains("fries_with_friends"))
-        {
-            GameProgressionManager.PlayMusic(4);
-        }
-        else
-        {
-            GameProgressionManager.StopMusic();
-        }
+        GameProgressionManager.PlayMusic(0);
     }
 
     void Start() 

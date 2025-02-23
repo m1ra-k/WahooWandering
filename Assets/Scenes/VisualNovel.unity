@@ -1144,11 +1144,7 @@ MonoBehaviour:
   dayNumber: 0
   sceneNumber: 0
   audioClips:
-  - {fileID: 8300000, guid: 00fd245697607db4594249cacbb2e3ce, type: 3}
-  - {fileID: 8300000, guid: 5df5a1b4ded7a7242a8a165d3efbfa54, type: 3}
-  - {fileID: 8300000, guid: 0422e4bd2eff87647a4483ea4ab17a56, type: 3}
-  - {fileID: 8300000, guid: dba6e8badab72e24fb3df30caaec473c, type: 3}
-  - {fileID: 8300000, guid: ed6714bcd77035b4aaab70680d921a94, type: 3}
+  - {fileID: 8300000, guid: cbe77967bdc0f9d45818bad26f29699d, type: 3}
   audioSourceBGM: {fileID: 0}
   nextSceneVisualNovelJSONFile: {fileID: 0}
 --- !u!114 &1007574002
