@@ -154,7 +154,7 @@
                     "ArcadeWorkerDistraught"
                 ],
                 "bgSprite": "Transparent",
-                "dialogue": "LIMITED-TIME TROLLEY SET?! NO PLEASE DON’T TAKE IT FROM ME!!",
+                "dialogue": "LIMITED-TIME TROLLEY SET?! NO PLEASE DON'T TAKE IT FROM ME!!",
                 "textSpeed": 0
             },
             "jumpToIndex": -1
@@ -245,7 +245,7 @@
                     "ArcadeWorkerHappy"
                 ],
                 "bgSprite": "Transparent",
-                "dialogue": "FINALLY! ANOTHER TROLLEY ENTHUSIASTS!!",
+                "dialogue": "FINALLY! ANOTHER TROLLEY ENTHUSIAST!!",
                 "textSpeed": 0
             },
             "jumpToIndex": -1
@@ -388,7 +388,7 @@
                     "ArcadeWorkerDistraught"
                 ],
                 "bgSprite": "Transparent",
-                "dialogue": " (But I really wanted it!!!! It's okay, me,)",
+                "dialogue": "(But I really wanted it!!!! It's okay, me,",
                 "textSpeed": 0
             },
             "jumpToIndex": -1
@@ -453,7 +453,20 @@
                     "ArcadeWorkerNeutral"
                 ],
                 "bgSprite": "Transparent",
-                "dialogue": "The event gives you 3 minutes to win as many plushies as you can before they're gone forever!",
+                "dialogue": "The event gives you 3 minutes to win as many plushies as you can",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "ArcadeWorker",
+                "npcSprite": [
+                    "ArcadeWorkerNeutral"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "before they're gone forever!",
                 "textSpeed": 0
             },
             "jumpToIndex": -1
@@ -479,7 +492,7 @@
                     "ArcadeWorkerNeutral"
                 ],
                 "bgSprite": "Transparent",
-                "dialogue": "Awesome- thank you so much! ",
+                "dialogue": "Awesome--thank you so much!",
                 "textSpeed": 0
             },
             "jumpToIndex": -1
@@ -505,7 +518,20 @@
                     "Transparent"
                 ],
                 "bgSprite": "Transparent",
-                "dialogue": "[I'll have to quickly press the button when it appears to perfect the timing of the claw drop!]",
+                "dialogue": "[I'll have to quickly press the button when it appears",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "to perfect the timing of the claw drop!]",
                 "textSpeed": 0
             },
             "jumpToIndex": -1,
