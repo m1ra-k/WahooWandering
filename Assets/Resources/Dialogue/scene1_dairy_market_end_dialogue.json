@@ -5,10 +5,361 @@
                 "vnType": "Normal",
                 "character": "MainCharacter",
                 "npcSprite": [
-                    "Transparent"
+                    "BandNeutral"
                 ],
                 "bgSprite": "Transparent",                
-                "dialogue": "dairy market end...",
+                "dialogue": "[The crowd erupts into applause as the band plays the last note.]",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BandMember1",
+                "npcSprite": [
+                    "BandMember1Happy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Thank you!! We're The Secret Chord Society!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BandMember2",
+                "npcSprite": [
+                    "BandMember2Happy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "We wouldn't be here without y'all!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BandMember3",
+                "npcSprite": [
+                    "BandMember3Happy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Please come out again! We'd love to play for y'all again!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BandMember1",
+                "npcSprite": [
+                    "BandMember1Happy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "And let's all give a big hand to our backup dancer!!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "BandHappy"
+                ],
+                "bgSprite": "[The crowd cheers again as the girls embrace me in a group hug!]",                
+                "dialogue": "",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BandMember1",
+                "npcSprite": [
+                    "BandMember1Happy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Ah, if only we had more time. I would've loved to treat you at Dairy Market.",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "BandMember1Happy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "(!!!)",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "BandMember1Happy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "(I think I felt my heart explode…)",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "BandMember1Happy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Nn-no that's okay!! Thank you for having me on stage!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "BandHappy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "[I wave to the crowd with a huge smile across my face as they cheer again.]",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BandMember2",
+                "npcSprite": [
+                    "BandMember2Happy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Oh- that reminds me! We also wanted to give a huge",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BandMember2",
+                "npcSprite": [
+                    "BandMember2Happy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "shout out to Dairy Market for having us!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BandMember3",
+                "npcSprite": [
+                    "BandMember3Happy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Right! The Dairy Market started as the Monticello Dairy Building back in '37.",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BandMember3",
+                "npcSprite": [
+                    "BandMember3Happy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Now, it's an awesome community space and food hall!!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BandMember3",
+                "npcSprite": [
+                    "BandMember3Happy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "It also satisfies all my food needs!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BandMember2",
+                "npcSprite": [
+                    "BandMember2Happy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Yeah, whenever my friends and I have different food cravings we usually",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BandMember2",
+                "npcSprite": [
+                    "BandMember2Happy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "default to Dairy Market- there's just so many yummy options here.",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BandMember1",
+                "npcSprite": [
+                    "BandMember1Happy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Right? Dairy Market really fosters the community and",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BandMember1",
+                "npcSprite": [
+                    "BandMember1Happy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "provides a great spot for hangouts, events, and markets!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BandMember1",
+                "npcSprite": [
+                    "BandMember1Happy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "(Urgh, I can't believe we were paid to say something so cheesy…)",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BandMember1",
+                "npcSprite": [
+                    "BandMember1Happy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "(It strikes the wrong chord.)",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BandMember1",
+                "npcSprite": [
+                    "BandMember1Happy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Anyway, please continue to show your love to Dairy Market and to us!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BandMember2",
+                "npcSprite": [
+                    "BandMember2Happy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "See ya-",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BandMember3",
+                "npcSprite": [
+                    "BandMember3Happy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "-at the next score!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "BandHappy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "(Wow, they're even cooler in person…)",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "BandHappy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "...",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "BandHappy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Ah! I forgot about the ice cream!",
                 "textSpeed": 0
             },
             "jumpToIndex": -1
@@ -20,8 +371,86 @@
                 "npcSprite": [
                     "Transparent"
                 ],
+                "bgSprite": "Transparent",                
+                "dialogue": "(Let's see…)",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "(Looks like Moo Thru's over there.)",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "(Gah, that line's insane!)",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "[I buy the holy ice cream after waiting in the long, long line.]",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "I hope this doesn't melt before I'm back…",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "[Where to next?]",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },     
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
                 "bgSprite": "Transparent",
-                "dialogue": "Another day of no customers...",
+                "dialogue": "[Where to next?]",
                 "textSpeed": 0
             },
             "jumpToIndex": -1,
