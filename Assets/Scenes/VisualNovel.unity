@@ -1143,14 +1143,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dayNumber: 0
   sceneNumber: 0
-  spaghettiWesternDinnerVisitNumber: 0
-  jollyRogerDinnerVisitNumber: 0
-  ratCityDinnerVisitNumber: 0
-  kafeKittyDinnerVisitNumber: 0
-  spaghettiWesternBrunchVisitNumber: 0
-  jollyRogerBrunchVisitNumber: 0
-  ratCityBrunchVisitNumber: 0
-  kafeKittyBrunchVisitNumber: 0
   audioClips:
   - {fileID: 8300000, guid: 00fd245697607db4594249cacbb2e3ce, type: 3}
   - {fileID: 8300000, guid: 5df5a1b4ded7a7242a8a165d3efbfa54, type: 3}
@@ -1534,7 +1526,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f2d2d751045122149b01350f8da842ee, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1976,10 +1968,9 @@ MonoBehaviour:
   choiceMapping: -1
   visualNovelJSONFile: {fileID: 4900000, guid: e03472c94b920c5409d355422f9ec6c3, type: 3}
   voices:
-  - {fileID: 8300000, guid: cf0c936f8eaa091478af24a5bebbe56c, type: 3}
+  - {fileID: 8300000, guid: 617e2c5204ea0eb44b784e1534ba448b, type: 3}
   - {fileID: 8300000, guid: f7dd502bd9a75a64b9690f936645b044, type: 3}
   - {fileID: 8300000, guid: 183c601b4a0ad3847a27adec00fa9a79, type: 3}
-  - {fileID: 8300000, guid: 617e2c5204ea0eb44b784e1534ba448b, type: 3}
   transitioningScene: 0
   finishedDialogue: 0
   spaceDisabled: 0
@@ -2176,6 +2167,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9066374284392307520, guid: da36ec69b8782a3459fc568574255cf7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ea9247000fa975445aefb514eaad8f11, type: 3}
     - target: {fileID: 2127415511925357316, guid: 1f3196194e70bd143ba8f8728246fb45, type: 3}
       propertyPath: m_Alpha
       value: 0

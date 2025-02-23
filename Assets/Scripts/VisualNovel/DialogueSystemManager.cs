@@ -447,38 +447,41 @@ public class DialogueSystemManager : MonoBehaviour
             {
                 switch (character)
                 {
-                    case "KittyEmployee":
-                        characterNumber = 0;
-                        audioSource.pitch = 1.75f;
-                        break;
-                    case "Nana":
-                        characterNumber = 3;
+                    case "MainCharacter":
+                        characterNumber = 2;
                         audioSource.pitch = 1.25f;
                         break;
-                    case "Tubby":
+                    case "Room53Resident":
+                        characterNumber = 2;
+                        audioSource.pitch = 1.25f;
+                        break;
+                    case "Room19Resident":
                         characterNumber = 0;
                         audioSource.pitch = 0.85f;
                         break;
-                    case "FriesManager":
+                    case "Room07Resident":
                         characterNumber = 2;
                         audioSource.pitch = 2f;
                         break;
-                    case "JollyWorker":
+                    case "BodosWorker":
                         characterNumber = 1;
                         audioSource.pitch = 0.95f;
                         break;
-                    case "SpaghettiWorker":
+                    case "ArcadeWorker":
                         characterNumber = 1;
                         audioSource.pitch = 1.9f;
                         break;
-                    case "RatWorker":
-                        characterNumber = 3;
+                    case "BandMember1":
+                        characterNumber = 1;
                         audioSource.pitch = 2f;
                         break;
-                    // need to do this for everyone
-                    default:
+                    case "BandMember2":
                         characterNumber = 0;
-                        audioSource.pitch = 1.75f;
+                        audioSource.pitch = 2f;
+                        break;
+                    case "BandMember3":
+                        characterNumber = 2;
+                        audioSource.pitch = 1.5f;
                         break;
                 }
 

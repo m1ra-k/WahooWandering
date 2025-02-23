@@ -518,7 +518,20 @@
                     "Transparent"
                 ],
                 "bgSprite": "Transparent",
-                "dialogue": "[I'll have to quickly press the button when it appears to perfect the timing of the claw drop!]",
+                "dialogue": "[I'll have to quickly press the button when it appears",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "to perfect the timing of the claw drop!]",
                 "textSpeed": 0
             },
             "jumpToIndex": -1,
