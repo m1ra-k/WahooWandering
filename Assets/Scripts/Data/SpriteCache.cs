@@ -22,7 +22,6 @@ public class SpriteCache : ScriptableObject
         foreach (string spriteName in spriteNames) 
         {
             sprites[spriteName] = Resources.Load<Sprite>(path + spriteName);
-            Debug.Log($"loaded {path + spriteName}");
         }
     }
 }

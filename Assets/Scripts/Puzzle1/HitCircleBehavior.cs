@@ -86,17 +86,17 @@ public class HitCircleBehavior : MonoBehaviour
         }
         else if (uniformScale >= 0.70 && uniformScale < 0.80)
         {
-            updateHitJudgementCoroutine = StartCoroutine(UpdateHitJudgement("bad"));
+            updateHitJudgementCoroutine = StartCoroutine(UpdateHitJudgement("okay"));
             scoreMeter.UpdateScoreMeter(5);
         }
         else if (uniformScale >= 0.80 && uniformScale < 0.90)
         {
-            updateHitJudgementCoroutine = StartCoroutine(UpdateHitJudgement("okay"));
+            updateHitJudgementCoroutine = StartCoroutine(UpdateHitJudgement("good"));
             scoreMeter.UpdateScoreMeter(10);
         }
         else 
         {
-            updateHitJudgementCoroutine = StartCoroutine(UpdateHitJudgement("good"));
+            updateHitJudgementCoroutine = StartCoroutine(UpdateHitJudgement("perfect"));
             scoreMeter.UpdateScoreMeter(15);
         }
     }

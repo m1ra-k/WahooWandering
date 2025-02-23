@@ -22,16 +22,16 @@ public class ApproachCircleBehavior : MonoBehaviour
 
     void ApproachCircleFastBehavior()
     {
-        transform.localScale += new Vector3(0.0385f, 0.0385f, 0.0385f); // 26 frames per beat, 0.43 seconds (quarter note)
+        transform.localScale += new Vector3(0.0260f, 0.0260f, 0.0260f); // 26 frames per beat, 0.43 seconds (quarter note)
     }
 
     void ApproachCircleNormalBehavior()
     {
-        transform.localScale += new Vector3(0.0192f, 0.0192f, 0.0192f); // 52 frames per beat, 0.86 seconds (half note)
+        transform.localScale += new Vector3(0.0130f, 0.0130f, 0.0130f); // 52 frames per beat, 0.86 seconds (half note)
     }
 
     void ApproachCircleSlowBehavior()
     {
-        transform.localScale += new Vector3(0.0097f, 0.0097f, 0.0097f); // 104 frames per beat, 1.72 seconds (whole note)
+        transform.localScale += new Vector3(0.0065f, 0.0065f, 0.0065f); // 104 frames per beat, 1.72 seconds (whole note)
     }
 }
