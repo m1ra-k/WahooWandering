@@ -190,7 +190,7 @@
                     "BodosWorkerNeutral"
                 ],
                 "bgSprite": "Transparent",
-                "dialogue": "Actually, our shop on The corner has only been open since '05",
+                "dialogue": "Actually, our shop on The Corner has only been open since '05",
                 "textSpeed": 0
             },
             "jumpToIndex": -1
@@ -258,7 +258,8 @@
                 "dialogue": "[Where to next?]",
                 "textSpeed": 0
             },
-            "jumpToIndex": -1
+            "jumpToIndex": -1,
+            "endOfScene": true
         }
     ]
 }

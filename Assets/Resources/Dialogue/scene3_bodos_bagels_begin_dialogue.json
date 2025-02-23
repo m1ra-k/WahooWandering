@@ -323,7 +323,8 @@
                 "dialogue": "and get to making this bagel!]",
                 "textSpeed": 0
             },
-            "jumpToIndex": -1
+            "jumpToIndex": -1,
+            "endOfScene": true
         }
         
     ]

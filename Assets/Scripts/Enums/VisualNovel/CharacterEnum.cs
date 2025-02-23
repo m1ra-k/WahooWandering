@@ -14,7 +14,7 @@ public enum CharacterEnum
     [Description("Overworked Baker")]
     BodosWorker,
     [Description("Trolley Fanatic")]
-    DecadesWorker,
+    ArcadeWorker,
     [Description("Fashionable Singer")]
     BandMember1,
     [Description("Emo Drummer")]
