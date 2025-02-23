@@ -1,0 +1,30 @@
+{
+    "dialogues": [
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "dairy market end...",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "Another day of no customers...",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        }
+    ]
+}
