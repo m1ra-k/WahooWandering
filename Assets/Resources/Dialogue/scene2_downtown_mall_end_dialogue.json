@@ -5,10 +5,36 @@
                 "vnType": "Normal",
                 "character": "MainCharacter",
                 "npcSprite": [
-                    "Transparent"
+                    "ArcadeWorkerNeutral"
                 ],
                 "bgSprite": "Transparent",                
-                "dialogue": "downtown mall end...",
+                "dialogue": "Whew, that took longer than I thought.",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "ArcadeWorker",
+                "npcSprite": [
+                    "ArcadeWorkerNeutral"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Thanks, Come again!.",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "ArcadeWorker",
+                "npcSprite": [
+                    "ArcadeWorkerHappy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Next time we can talk about overthrowing the bus system!",
                 "textSpeed": 0
             },
             "jumpToIndex": -1
@@ -18,10 +44,36 @@
                 "vnType": "Normal",
                 "character": "MainCharacter",
                 "npcSprite": [
-                    "Transparent"
+                    "ArcadeWorkerHappy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "(I'm surprised the staff didn't yap more about trolleys, hahaha.)",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "ArcadeWorkerHappy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "But anyway, I should hurry to the next spot.",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "ArcadeWorkerHappy"
                 ],
                 "bgSprite": "Transparent",
-                "dialogue": "Another day of no customers...",
+                "dialogue": "[Where to next?]",
                 "textSpeed": 0
             },
             "jumpToIndex": -1,
