@@ -9,7 +9,7 @@ public class GameProgressionManager : MonoBehaviour
     public static GameProgressionManager GameProgressionManagerInstance;
 
     // Transition    
-    private FadeEffect fadeEffect;
+    public FadeEffect fadeEffect;
     private GameObject blackTransition;
 
     [Header("[Moment]")]
@@ -40,6 +40,8 @@ public class GameProgressionManager : MonoBehaviour
             }
         }
     };
+
+    public bool minigameDone;
 
     void Awake()
     {        
@@ -145,6 +147,29 @@ public class GameProgressionManager : MonoBehaviour
                     fadeEffect.FadeIn(blackTransition, fadeTime: 0.5f, scene: "Puzzle3");
                     break;
             }
+        }
+        else if (possibleFlag.Contains("finished"))
+        {
+            switch (possibleFlag)
+            {
+                case "finished: rhythm game":
+                    Debug.Log("FINISHED DAIRY MARKET GAME");
+                    PlayMusic(0);
+                    nextSceneVisualNovelJSONFile = Resources.Load<TextAsset>($"Dialogue/scene1_dairy_market_end_dialogue");
+                    break;
+
+                case "finished: claw machine":
+                    Debug.Log("FINISHED DOWNTOWN MALL GAME");
+                    nextSceneVisualNovelJSONFile = Resources.Load<TextAsset>($"Dialogue/scene2_downtown_mall_end_dialogue");
+                    break;
+
+                case "finished: bagel making":
+                    Debug.Log("FINISHED BODOS BAGELS GAME");
+                    nextSceneVisualNovelJSONFile = Resources.Load<TextAsset>($"Dialogue/scene3_bodos_bagels_end_dialogue");
+                    break;
+            }
+
+            fadeEffect.FadeIn(blackTransition, fadeTime: 0.5f, scene: "VisualNovel");
         }
     }
 
