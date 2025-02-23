@@ -7,7 +7,7 @@
                 "npcSprite": [
                     "Transparent"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "DairyOutsideBG",                
                 "dialogue": "Woah, that's a big crowd.",
                 "textSpeed": 0
             },
@@ -20,7 +20,7 @@
                 "npcSprite": [
                     "Transparent"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "DairyOutsideBG",                
                 "dialogue": "I wonder what's going on.",
                 "textSpeed": 0
             },
@@ -33,7 +33,7 @@
                 "npcSprite": [
                     "BandNeutral"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "DairyOutsideBG",                
                 "dialogue": "Ah, it's a live band! And people are dancing!",
                 "textSpeed": 0
             },
@@ -46,7 +46,7 @@
                 "npcSprite": [
                     "BandNeutral"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "DairyOutsideBG",                
                 "dialogue": "(WAIT!)",
                 "textSpeed": 0
             },
@@ -59,7 +59,7 @@
                 "npcSprite": [
                     "BandNeutral"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "DairyOutsideBG",                
                 "dialogue": "(NO WAY!)",
                 "textSpeed": 0
             },
@@ -72,7 +72,7 @@
                 "npcSprite": [
                     "BandNeutral"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "DairyOutsideBG",                
                 "dialogue": "(IS THAT THE SECRET CHORD SOCIETY?!)",
                 "textSpeed": 0
             },
@@ -85,7 +85,7 @@
                 "npcSprite": [
                     "BandNeutral"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "DairyOutsideBG",                
                 "dialogue": "(OMG! I'M SUCH A BIG FAN!)",
                 "textSpeed": 0
             },
@@ -98,7 +98,7 @@
                 "npcSprite": [
                     "BandNeutral"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "DairyOutsideBG",                
                 "dialogue": "(I-I CAN'T BELIEVE I HAVE THE HONOR OF SEEING THEM IN PERSON!)",
                 "textSpeed": 0
             },
@@ -111,7 +111,7 @@
                 "npcSprite": [
                     "BandHappy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DairyOutsideBG",
                 "dialogue": "[I start to sway to the beat.]",
                 "textSpeed": 0
             },
@@ -124,7 +124,7 @@
                 "npcSprite": [
                     "BandHappy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DairyOutsideBG",
                 "dialogue": "[The girls on stage gesture at me!]",
                 "textSpeed": 0
             },
@@ -137,7 +137,7 @@
                 "npcSprite": [
                     "BandMember1Happy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DairyOutsideBG",
                 "dialogue": "Join in girlie! Let's see those moves!",
                 "textSpeed": 0
             },
@@ -150,7 +150,7 @@
                 "npcSprite": [
                     "BandMember1Happy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DairyOutsideBG",
                 "dialogue": "[The lead singer holds her hand out and pulls me onto the stage.]",
                 "textSpeed": 0
             },
@@ -163,7 +163,7 @@
                 "npcSprite": [
                     "BandHappy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DairyOutsideBG",
                 "dialogue": "Ah!",
                 "textSpeed": 0
             },
@@ -176,7 +176,7 @@
                 "npcSprite": [
                     "BandHappy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DairyOutsideBG",
                 "dialogue": "(THIS CAN'T BE HAPPENING!!)",
                 "textSpeed": 0
             },
@@ -189,7 +189,7 @@
                 "npcSprite": [
                     "BandHappy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DairyOutsideBG",
                 "dialogue": "(ME? ON STAGE WITH THE SCS???)",
                 "textSpeed": 0
             },
@@ -202,7 +202,7 @@
                 "npcSprite": [
                     "BandHappy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DairyOutsideBG",
                 "dialogue": "(I CAN'T SCREW UP NOW!)",
                 "textSpeed": 0
             },
@@ -215,7 +215,7 @@
                 "npcSprite": [
                     "BandHappy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DairyOutsideBG",
                 "dialogue": "(Just have to stay on beat... no pressure, ahahaha....)",
                 "textSpeed": 0
             },
@@ -228,7 +228,7 @@
                 "npcSprite": [
                     "BandHappy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DairyOutsideBG",
                 "dialogue": "Click on the button as soon as the two circles overlap to time the rhythm of my dance moves!",
                 "textSpeed": 0
             },
