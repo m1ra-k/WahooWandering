@@ -8,9 +8,36 @@
                     "Transparent"
                 ],
                 "bgSprite": "Transparent",                
-                "dialogue": "choose location...",
+                "dialogue": "Okay, where to go to next...",
                 "textSpeed": 0
             },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Choice",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "...",
+                "textSpeed": 0
+            },
+            "conditionalChoices": [
+                {
+                    "choiceMapping": 2,
+                    "choiceDialogue": "Dairy Market"
+                },
+                {
+                    "choiceMapping": 3,
+                    "choiceDialogue": "Downtown Mall"
+                },
+                {
+                    "choiceMapping": 4,
+                    "choiceDialogue": "Bodo's Bagels"
+                }
+            ],
             "jumpToIndex": -1
         },
         {
@@ -21,10 +48,42 @@
                     "Transparent"
                 ],
                 "bgSprite": "Transparent",
-                "dialogue": "Another day of no customers...",
+                "dialogue": "Time to head over to Dairy Market.",
                 "textSpeed": 0
             },
-            "jumpToIndex": -1
+            "jumpToIndex": -1,
+            "endOfScene": true,
+            "flag": "location: dairy market"
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "Downtown Mall sounds interesting.",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1,
+            "endOfScene": true,
+            "flag": "location: downtown mall"
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "Maybe I can get a bagel from Bodo's too.",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1,
+            "endOfScene": true,
+            "flag": "location: bodo's bagels"
         }
     ]
 }

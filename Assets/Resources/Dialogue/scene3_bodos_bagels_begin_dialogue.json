@@ -324,8 +324,8 @@
                 "textSpeed": 0
             },
             "jumpToIndex": -1,
-            "endOfScene": true
+            "endOfScene": true,
+            "flag": "minigame: bagel making"
         }
-        
     ]
 }

@@ -56,6 +56,9 @@ public class DialogueSystemManager : MonoBehaviour
 
     public bool spaceDisabled;
 
+    // CHOOSE LOCATION 
+    public bool chooseLocation = false;
+
     private Dictionary<int, Vector2[]> NPCPositions = new()
     {
         { 1, new Vector2[] { new Vector2(0f, 0f) } },
@@ -94,7 +97,22 @@ public class DialogueSystemManager : MonoBehaviour
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         string sceneName = visualNovelJSONFile.name;
-        GameProgressionManager.PlayMusic(0);
+        
+        if (sceneName.Contains("X"))
+        {
+            // bool set to true for choice conditional stuff        
+            chooseLocation = true;    
+        }
+
+        if (sceneName.Contains("end") || !sceneName.Contains("4"))
+        {
+            GameProgressionManager.sceneNumber = 0;
+        }
+
+        // if (!scene.name.Equals("Puzzle1"))
+        // {
+        //     GameProgressionManager.PlayMusic(0);
+        // }
     }
 
     void Start() 
