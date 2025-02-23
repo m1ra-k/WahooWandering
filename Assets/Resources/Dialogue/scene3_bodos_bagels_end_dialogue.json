@@ -3,12 +3,77 @@
         {
             "baseDialogue": {
                 "vnType": "Normal",
-                "character": "MainCharacter",
+                "character": "BodosWorker",
                 "npcSprite": [
-                    "Transparent"
+                    "BodosWorkerHappy"
                 ],
                 "bgSprite": "Transparent",                
-                "dialogue": "bodos bagels end...",
+                "dialogue": "Thanks for coming out!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BodosWorker",
+                "npcSprite": [
+                    "BodosWorkerTired"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "(We were seriously understaffed.)",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BodosWorker",
+                "npcSprite": [
+                    "BodosWorkerTired"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "(I can't believe only I showed up today and it's been like this for the past week…)",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BodosWorker",
+                "npcSprite": [
+                    "BodosWorkerTired"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "(Good thing Chat came up with the MYOB event.",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BodosWorker",
+                "npcSprite": [
+                    "BodosWorkerTired"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "If I had to make another 800 bagels by myself…)",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BodosWorker",
+                "npcSprite": [
+                    "BodosWorkerHappy"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "Here's to another 37 years of Bodo's!",
                 "textSpeed": 0
             },
             "jumpToIndex": -1
@@ -18,13 +83,183 @@
                 "vnType": "Normal",
                 "character": "MainCharacter",
                 "npcSprite": [
-                    "Transparent"
+                    "BodosWorkerHappy"
                 ],
                 "bgSprite": "Transparent",
-                "dialogue": "Another day of no customers...",
+                "dialogue": "37 years?! I didn't know the bagels were that old…",
                 "textSpeed": 0
             },
             "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "BodosWorkerHappy"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "(I kind of don't want to eat them anymore…)",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BodosWorker",
+                "npcSprite": [
+                    "BodosWorkerHappy"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "Hahaha, no the bagels aren't that old.",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BodosWorker",
+                "npcSprite": [
+                    "BodosWorkerHappy"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "They're made fresh daily with locally sourced ingredients!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BodosWorker",
+                "npcSprite": [
+                    "BodosWorkerHappy"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "What I meant to say is that we've been committed to serving delicious bagels to",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "BodosWorkerHappy"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "the residents of Charlottesville for the past 37 years!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "BodosWorkerHappy"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "Wow! I didn't know the Bodo's on The Corner was that old.",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "BodosWorkerHappy"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "(It isn't really that dusty in here…)",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BodosWorker",
+                "npcSprite": [
+                    "BodosWorkerNeutral"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "Actually, our shop on The Corner has only been open since '05",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "BodosWorker",
+                "npcSprite": [
+                    "BodosWorkerNeutral"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "a decade after we bought the shop in 1995!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "BodosWorkerNeutral"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "Ahh, well I'm glad there's a shop on The Corner!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "BodosWorkerNeutral"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "(It's much closer than walking to the one on Emmet Street.)",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "BodosWorkerHappy"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "Thanks again for the bagel!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "BodosWorkerHappy"
+                ],
+                "bgSprite": "Transparent",
+                "dialogue": "[Where to next?]",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1,
+            "endOfScene": true
         }
     ]
 }
