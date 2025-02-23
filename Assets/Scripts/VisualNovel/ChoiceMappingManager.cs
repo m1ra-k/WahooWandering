@@ -60,16 +60,16 @@ public class ChoiceMappingManager : MonoBehaviour
 
         switch (numChoices)
         {
+            case 1:
+                modifiedPositionY = 80;
+                break;
+
             case 2:
-                modifiedPositionY = 250;
+                modifiedPositionY = 115;
                 break;
 
             case 3:
-                modifiedPositionY = 400;
-                break;
-                
-            case 4:
-                modifiedPositionY = 480;
+                modifiedPositionY = 145;
                 break;
         }
 

@@ -9,7 +9,7 @@ public class GameProgressionManager : MonoBehaviour
     public static GameProgressionManager GameProgressionManagerInstance;
 
     // Transition    
-    private FadeEffect fadeEffect;
+    public FadeEffect fadeEffect;
     private GameObject blackTransition;
 
     [Header("[Moment]")]
@@ -41,6 +41,8 @@ public class GameProgressionManager : MonoBehaviour
         }
     };
 
+    public bool minigameDone;
+
     void Awake()
     {        
         if (GameProgressionManagerInstance == null)
@@ -70,9 +72,11 @@ public class GameProgressionManager : MonoBehaviour
     {
         // print(scene.name);
 
-        blackTransition = GameObject.Find("Canvas").transform.Find("BlackTransition").gameObject;
-
-        fadeEffect.FadeOut(blackTransition, 0.5f);
+        if (!scene.name.Contains("Puzzle"))
+        {
+            blackTransition = GameObject.Find("Canvas").transform.Find("BlackTransition").gameObject;
+            fadeEffect.FadeOut(blackTransition, 0.5f);
+        }
     }
         
     public void TransitionScene(string possibleFlag)
@@ -103,18 +107,65 @@ public class GameProgressionManager : MonoBehaviour
             switch (possibleFlag)
             {
                 case "location: dairy market":
+                    Debug.Log("GOING TO DAIRY MARKET");
                     nextSceneVisualNovelJSONFile = Resources.Load<TextAsset>($"Dialogue/scene1_dairy_market_begin_dialogue");
                     locationsVisited["dairyMarket"] = true;
                     break;
 
                 case "location: downtown mall":
+                    Debug.Log("GOING TO DOWNTOWN MALL");
                     nextSceneVisualNovelJSONFile = Resources.Load<TextAsset>($"Dialogue/scene2_downtown_mall_begin_dialogue");
                     locationsVisited["downtownMall"]  = true;
                     break;
 
-                case "location: bodosBagels":
-                    nextSceneVisualNovelJSONFile = Resources.Load<TextAsset>($"Visits/scene3_bodos_bagel_begin_dialogue");
+                case "location: bodo's bagels":
+                    Debug.Log("GOING TO BODOS BAGELS");
+                    nextSceneVisualNovelJSONFile = Resources.Load<TextAsset>($"Dialogue/scene3_bodos_bagels_begin_dialogue");
                     locationsVisited["bodosBagels"]  = true;
+                    break;
+            }
+
+            fadeEffect.FadeIn(blackTransition, fadeTime: 0.5f, scene: "VisualNovel");
+        }
+        else if (possibleFlag.Contains("minigame")) // route determination stuff
+        {               
+            switch (possibleFlag)
+            {
+                case "minigame: rhythm game":
+                    Debug.Log("GOING TO DAIRY MARKET GAME");
+                    StopMusic();
+                    fadeEffect.FadeIn(blackTransition, fadeTime: 0.5f, scene: "Puzzle1");
+                    break;
+
+                case "minigame: claw machine":
+                    Debug.Log("GOING TO DOWNTOWN MALL GAME");
+                    fadeEffect.FadeIn(blackTransition, fadeTime: 0.5f, scene: "Puzzle2");
+                    break;
+
+                case "minigame: bagel making":
+                    Debug.Log("GOING TO BODOS BAGELS GAME");
+                    fadeEffect.FadeIn(blackTransition, fadeTime: 0.5f, scene: "Puzzle3");
+                    break;
+            }
+        }
+        else if (possibleFlag.Contains("finished"))
+        {
+            switch (possibleFlag)
+            {
+                case "finished: rhythm game":
+                    Debug.Log("FINISHED DAIRY MARKET GAME");
+                    PlayMusic(0);
+                    nextSceneVisualNovelJSONFile = Resources.Load<TextAsset>($"Dialogue/scene1_dairy_market_end_dialogue");
+                    break;
+
+                case "finished: claw machine":
+                    Debug.Log("FINISHED DOWNTOWN MALL GAME");
+                    nextSceneVisualNovelJSONFile = Resources.Load<TextAsset>($"Dialogue/scene2_downtown_mall_end_dialogue");
+                    break;
+
+                case "finished: bagel making":
+                    Debug.Log("FINISHED BODOS BAGELS GAME");
+                    nextSceneVisualNovelJSONFile = Resources.Load<TextAsset>($"Dialogue/scene3_bodos_bagels_end_dialogue");
                     break;
             }
 

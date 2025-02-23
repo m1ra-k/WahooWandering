@@ -111,7 +111,8 @@
                 "npcSprite": [
                     "BandHappy"
                 ],
-                "bgSprite": "[I start to sway to the beat.]",
+                "bgSprite": "Transparent",
+                "dialogue": "[I start to sway to the beat.]",
                 "textSpeed": 0
             },
             "jumpToIndex": -1
@@ -123,7 +124,8 @@
                 "npcSprite": [
                     "BandHappy"
                 ],
-                "bgSprite": "[The girls on stage gesture at me!]",
+                "bgSprite": "Transparent",
+                "dialogue": "[The girls on stage gesture at me!]",
                 "textSpeed": 0
             },
             "jumpToIndex": -1
@@ -135,7 +137,8 @@
                 "npcSprite": [
                     "BandMember1Happy"
                 ],
-                "bgSprite": "Join in girlie! Let's see those moves!",
+                "bgSprite": "Transparent",
+                "dialogue": "Join in girlie! Let's see those moves!",
                 "textSpeed": 0
             },
             "jumpToIndex": -1
@@ -147,7 +150,8 @@
                 "npcSprite": [
                     "BandMember1Happy"
                 ],
-                "bgSprite": "[The lead singer holds her hand out and pulls me onto the stage.]",
+                "bgSprite": "Transparent",
+                "dialogue": "[The lead singer holds her hand out and pulls me onto the stage.]",
                 "textSpeed": 0
             },
             "jumpToIndex": -1
@@ -159,7 +163,8 @@
                 "npcSprite": [
                     "BandHappy"
                 ],
-                "bgSprite": "Ah!",
+                "bgSprite": "Transparent",
+                "dialogue": "Ah!",
                 "textSpeed": 0
             },
             "jumpToIndex": -1
@@ -171,7 +176,8 @@
                 "npcSprite": [
                     "BandHappy"
                 ],
-                "bgSprite": "(THIS CAN'T BE HAPPENING!!)",
+                "bgSprite": "Transparent",
+                "dialogue": "(THIS CAN'T BE HAPPENING!!)",
                 "textSpeed": 0
             },
             "jumpToIndex": -1
@@ -183,7 +189,8 @@
                 "npcSprite": [
                     "BandHappy"
                 ],
-                "bgSprite": "(ME? ON STAGE WITH THE SCS???)",
+                "bgSprite": "Transparent",
+                "dialogue": "(ME? ON STAGE WITH THE SCS???)",
                 "textSpeed": 0
             },
             "jumpToIndex": -1
@@ -195,7 +202,8 @@
                 "npcSprite": [
                     "BandHappy"
                 ],
-                "bgSprite": "(I CAN'T SCREW UP NOW!)",
+                "bgSprite": "Transparent",
+                "dialogue": "(I CAN'T SCREW UP NOW!)",
                 "textSpeed": 0
             },
             "jumpToIndex": -1
@@ -207,7 +215,8 @@
                 "npcSprite": [
                     "BandHappy"
                 ],
-                "bgSprite": "(Just have to stay on beat... no pressure, ahahaha....)",
+                "bgSprite": "Transparent",
+                "dialogue": "(Just have to stay on beat... no pressure, ahahaha....)",
                 "textSpeed": 0
             },
             "jumpToIndex": -1
@@ -224,7 +233,8 @@
                 "textSpeed": 0
             },
             "jumpToIndex": -1,
-            "endOfScene": true
+            "endOfScene": true,
+            "flag": "minigame: rhythm game"
         }
     ]
 }

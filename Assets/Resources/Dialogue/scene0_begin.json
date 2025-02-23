@@ -8,7 +8,7 @@
                     "Transparent"
                 ],
                 "bgSprite": "Transparent",                
-                "dialogue": "beginyghuyhyuh...",
+                "dialogue": "(Wow, the weather is so nice…)",
                 "textSpeed": 0
             },
             "jumpToIndex": -1
@@ -20,8 +20,450 @@
                 "npcSprite": [
                     "Transparent"
                 ],
+                "bgSprite": "Transparent",                
+                "dialogue": "(Lounging on the Lawn will be so nice.)",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "[I walk up the stairs alongside the Lawn, when suddenly-]",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "[-the door to Lawn room 53 swings open, almost hitting me in the face.]",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "Room53Resident",
+                "npcSprite": [
+                    "Room53ResidentHappy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Hey, you!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "Room53Resident",
+                "npcSprite": [
+                    "Room53ResidentHappy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": " Can you please do me a favor? Please, please, please??",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Room53ResidentHappy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "I-",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "Room53Resident",
+                "npcSprite": [
+                    "Room53ResidentNeutral"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Can you nab me a cone from Moo Thru at the Dairy Market?",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "Room53Resident",
+                "npcSprite": [
+                    "Room53ResidentNeutral"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "I woulddd goooo, but it's just a bit far…",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Room53ResidentNeutral"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Oka-",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "Room53Resident",
+                "npcSprite": [
+                    "Room53ResidentHappy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Thank you so much!!!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "Room53Resident",
+                "npcSprite": [
+                    "Room53ResidentHappy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Oh, and while you're at it, can you help my friend out too?",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "Room53Resident",
+                "npcSprite": [
+                    "Room53ResidentHappy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "She lives in room 19!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Room53ResidentHappy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "(It's like an unskippable side quest…)",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "[I head to room 19 but before I could knock…]",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "Room19Resident",
+                "npcSprite": [
+                    "Room19ResidentDistraught"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "WAAAAAHHH!! PLEASE YOU HAVE TO HELP ME!!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Room19ResidentDistraught"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Umm, calm down… everything will be okay!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "Room19Resident",
+                "npcSprite": [
+                    "Room19ResidentDistraught"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Can you please win me the limited-time Cav Plushie from Decades in Downtown Mall?",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Room19ResidentDistraught"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "O-okay. Is that all?",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "Room19Resident",
+                "npcSprite": [
+                    "Room19ResidentNeutral"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Yeah…",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Room19ResidentNeutral"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Anything else…?",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "Room19Resident",
+                "npcSprite": [
+                    "Room19ResidentHappy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Can you also help my friend? They live in the Secret 7 Room.",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Room19ResidentHappy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Alright, I'll be back soon.",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "Room19Resident",
+                "npcSprite": [
+                    "Room19ResidentHappy"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Thank you so much!",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "(I hope this is the final room.)",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "[I knock on the door labeled “07” and hear a voice from the inside.]",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "Room07Resident",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Yes?",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "I heard you needed help?",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "Room07Resident",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Yes?",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "So what do you need?",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "Room07Resident",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Bodo's Bagels.",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "What do you want me to order?",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "Room07Resident",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "Yes",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "O-okay…",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
+                "bgSprite": "Transparent",                
+                "dialogue": "(Time to get these items… it'll be a good chance to explore more of C'ville!)",
+                "textSpeed": 0
+            },
+            "jumpToIndex": -1
+        },    
+        {
+            "baseDialogue": {
+                "vnType": "Normal",
+                "character": "MainCharacter",
+                "npcSprite": [
+                    "Transparent"
+                ],
                 "bgSprite": "Transparent",
-                "dialogue": "Another day of no customers...",
+                "dialogue": "[Where to first?]",
                 "textSpeed": 0
             },
             "jumpToIndex": -1,

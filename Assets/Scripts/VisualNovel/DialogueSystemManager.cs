@@ -56,6 +56,9 @@ public class DialogueSystemManager : MonoBehaviour
 
     public bool spaceDisabled;
 
+    // CHOOSE LOCATION 
+    public bool chooseLocation = false;
+
     private Dictionary<int, Vector2[]> NPCPositions = new()
     {
         { 1, new Vector2[] { new Vector2(0f, 0f) } },
@@ -94,31 +97,22 @@ public class DialogueSystemManager : MonoBehaviour
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         string sceneName = visualNovelJSONFile.name;
+        
+        if (sceneName.Contains("X"))
+        {
+            // bool set to true for choice conditional stuff        
+            chooseLocation = true;    
+        }
 
-        if (sceneName.Contains("bloody_burger"))
+        if (sceneName.Contains("end") || !sceneName.Contains("4"))
         {
-            GameProgressionManager.PlayMusic(2);
+            GameProgressionManager.sceneNumber = 0;
         }
-        else if (sceneName.Contains("kafe_kitty"))
-        {
-            GameProgressionManager.PlayMusic(0);
-        }
-        else if (sceneName.Contains("spaghetti_western"))
-        {
-            GameProgressionManager.PlayMusic(1);
-        }
-        else if (sceneName.Contains("jolly_roger"))
-        {
-            GameProgressionManager.PlayMusic(3);
-        }
-        else if (sceneName.Contains("fries_with_friends"))
-        {
-            GameProgressionManager.PlayMusic(4);
-        }
-        else
-        {
-            GameProgressionManager.StopMusic();
-        }
+
+        // if (!scene.name.Equals("Puzzle1"))
+        // {
+        //     GameProgressionManager.PlayMusic(0);
+        // }
     }
 
     void Start() 

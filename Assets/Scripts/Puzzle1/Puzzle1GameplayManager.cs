@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -17,6 +18,9 @@ public class Puzzle1GameplayManager : MonoBehaviour
     private int beatmapListIndex;
     private List<List<(int, ApproachCircleTypeEnum?)>> beatmapList = new List<List<(int, ApproachCircleTypeEnum?)>>();
     private ApproachCircle approachCircle;
+
+    public GameProgressionManager GameProgressionManager;
+    private bool transitioned;
     
     void Awake()
     {
@@ -68,6 +72,8 @@ public class Puzzle1GameplayManager : MonoBehaviour
         }
 
         approachCircle = approachCircles.GetComponent<ApproachCircle>();
+
+        GameProgressionManager = GameObject.Find("GameProgressionManager").GetComponent<GameProgressionManager>();
 
         StartCoroutine(EnableAudioAfterWait());
     }
@@ -150,6 +156,14 @@ public class Puzzle1GameplayManager : MonoBehaviour
         yield return new WaitForSeconds(3f);
 
         done.SetActive(true);
+
+        yield return new WaitForSeconds(2f);
+
+        if (!transitioned)
+        {
+            GameProgressionManager.TransitionScene("finished: rhythm game"); 
+            transitioned = true;
+        }
     }
 
 }
