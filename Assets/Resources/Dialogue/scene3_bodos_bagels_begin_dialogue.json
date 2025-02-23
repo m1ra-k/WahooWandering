@@ -7,7 +7,7 @@
                 "npcSprite": [
                     "BodosWorkerHappy"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "BodosBG",                
                 "dialogue": "Welcome! Today is our Annual Make Your Own Bagel Event!",
                 "textSpeed": 0
             },
@@ -20,7 +20,7 @@
                 "npcSprite": [
                     "BodosWorkerHappy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "BodosBG",
                 "dialogue": "Annual? I didn't know Bodo's hosted a yearly event like this.",
                 "textSpeed": 0
             },
@@ -33,7 +33,7 @@
                 "npcSprite": [
                     "BodosWorkerNeutral"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "BodosBG",
                 "dialogue": "Oh, well no. I meant to say FIRST Annual.",
                 "textSpeed": 0
             },
@@ -46,7 +46,7 @@
                 "npcSprite": [
                     "BodosWorkerNeutral"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "BodosBG",
                 "dialogue": "I-I feel like that's false advertising.",
                 "textSpeed": 0
             },
@@ -59,7 +59,7 @@
                 "npcSprite": [
                     "BodosWorkerTired"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "BodosBG",
                 "dialogue": "Oh, well no. I think you heard me wrong.",
                 "textSpeed": 0
             },
@@ -72,7 +72,7 @@
                 "npcSprite": [
                     "BodosWorkerNeutral"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "BodosBG",
                 "dialogue": "It is pretty loud in here…",
                 "textSpeed": 0
             },
@@ -85,7 +85,7 @@
                 "npcSprite": [
                     "BodosWorkerNeutral"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "BodosBG",
                 "dialogue": "(Is she gaslighting me??)",
                 "textSpeed": 0
             },
@@ -98,7 +98,7 @@
                 "npcSprite": [
                     "BodosWorkerNeutral"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "BodosBG",
                 "dialogue": "Is-is it free?",
                 "textSpeed": 0
             },
@@ -111,7 +111,7 @@
                 "npcSprite": [
                     "BodosWorkerTired"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "BodosBG",
                 "dialogue": "Oh, well no. You have to pay for your toppings and bagel.",
                 "textSpeed": 0
             },
@@ -124,7 +124,7 @@
                 "npcSprite": [
                     "BodosWorkerTired"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "BodosBG",
                 "dialogue": "…",
                 "textSpeed": 0
             },
@@ -137,7 +137,7 @@
                 "npcSprite": [
                     "BodosWorkerTired"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "BodosBG",
                 "dialogue": "…",
                 "textSpeed": 0
             },
@@ -150,7 +150,7 @@
                 "npcSprite": [
                     "BodosWorkerTired"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "BodosBG",
                 "dialogue": "…",
                 "textSpeed": 0
             },
@@ -163,7 +163,7 @@
                 "npcSprite": [
                     "BodosWorkerTired"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "BodosBG",
                 "dialogue": "…",
                 "textSpeed": 0
             },
@@ -176,7 +176,7 @@
                 "npcSprite": [
                     "BodosWorkerTired"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "BodosBG",
                 "dialogue": "So, I have to make my own bagel and pay for it…",
                 "textSpeed": 0
             },
@@ -189,7 +189,7 @@
                 "npcSprite": [
                     "BodosWorkerTired"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "BodosBG",
                 "dialogue": "Well…",
                 "textSpeed": 0
             },
@@ -202,7 +202,7 @@
                 "npcSprite": [
                     "BodosWorkerTired"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "BodosBG",
                 "dialogue": "(I'm guessing none of the other staff showed up today.)",
                 "textSpeed": 0
             },
@@ -215,7 +215,7 @@
                 "npcSprite": [
                     "BodosWorkerTired"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "BodosBG",
                 "dialogue": "[I quickly glance around only to see that the only person in a Bodo's uniform is",
                 "textSpeed": 0
             },
@@ -228,7 +228,7 @@
                 "npcSprite": [
                     "BodosWorkerTired"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "BodosBG",
                 "dialogue": "the poor, overworked girl in front of me.]",
                 "textSpeed": 0
             },
@@ -241,7 +241,7 @@
                 "npcSprite": [
                     "BodosWorkerTired"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "BodosBG",
                 "dialogue": "(That explains it.)",
                 "textSpeed": 0
             },
@@ -254,7 +254,7 @@
                 "npcSprite": [
                     "BodosWorkerTired"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "BodosBG",
                 "dialogue": "(I'm not getting paid enough for this.)",
                 "textSpeed": 0
             },
@@ -267,7 +267,7 @@
                 "npcSprite": [
                     "BodosWorkerNeutral"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "BodosBG",
                 "dialogue": "Well, what are you waiting for?",
                 "textSpeed": 0
             },
@@ -280,7 +280,7 @@
                 "npcSprite": [
                     "BodosWorkerHappy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "BodosBG",
                 "dialogue": " Grab a bagel, your favorite toppings, and get to assembling your fresh bagel!",
                 "textSpeed": 0
             },
@@ -293,7 +293,7 @@
                 "npcSprite": [
                     "BodosWorkerHappy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "BodosBG",
                 "dialogue": "Alright, time to cook.",
                 "textSpeed": 0
             },
@@ -306,7 +306,7 @@
                 "npcSprite": [
                     "BodosWorkerHappy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "BodosBG",
                 "dialogue": "[I just have to place the appropriate bagel and toppings on the assembling tray",
                 "textSpeed": 0
             },
@@ -319,7 +319,7 @@
                 "npcSprite": [
                     "BodosWorkerHappy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "BodosBG",
                 "dialogue": "and get to making this bagel!]",
                 "textSpeed": 0
             },

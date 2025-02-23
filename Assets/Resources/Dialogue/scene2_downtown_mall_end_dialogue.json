@@ -7,7 +7,7 @@
                 "npcSprite": [
                     "ArcadeWorkerNeutral"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "DowntownArcadeBG",                
                 "dialogue": "Whew, that took longer than I thought.",
                 "textSpeed": 0
             },
@@ -20,7 +20,7 @@
                 "npcSprite": [
                     "ArcadeWorkerNeutral"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "DowntownArcadeBG",                
                 "dialogue": "Thanks, Come again!.",
                 "textSpeed": 0
             },
@@ -33,7 +33,7 @@
                 "npcSprite": [
                     "ArcadeWorkerHappy"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "DowntownArcadeBG",                
                 "dialogue": "Next time we can talk about overthrowing the bus system!",
                 "textSpeed": 0
             },
@@ -46,7 +46,7 @@
                 "npcSprite": [
                     "ArcadeWorkerHappy"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "DowntownArcadeBG",                
                 "dialogue": "(I'm surprised the staff didn't yap more about trolleys, hahaha.)",
                 "textSpeed": 0
             },
@@ -59,7 +59,7 @@
                 "npcSprite": [
                     "ArcadeWorkerHappy"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "DowntownArcadeBG",                
                 "dialogue": "But anyway, I should hurry to the next spot.",
                 "textSpeed": 0
             },
@@ -70,9 +70,9 @@
                 "vnType": "Normal",
                 "character": "MainCharacter",
                 "npcSprite": [
-                    "ArcadeWorkerHappy"
+                    "Transparent"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownOutsideBG",
                 "dialogue": "[Where to next?]",
                 "textSpeed": 0
             },
