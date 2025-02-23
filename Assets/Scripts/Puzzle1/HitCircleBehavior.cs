@@ -12,10 +12,13 @@ public class HitCircleBehavior : MonoBehaviour
     private Coroutine updateHitJudgementCoroutine;
     private ScoreMeter scoreMeter;
     private float maxScale = 1.20f;
+    private AudioSource audioSource;
+
 
     void Start()
     {
         scoreMeter = GetComponentInParent<HitCircle>().scoreMeter;
+        audioSource = GetComponent<AudioSource>();
     }
 
     public void ButtonClicked()
@@ -25,6 +28,8 @@ public class HitCircleBehavior : MonoBehaviour
             DestroyLargestApproachCircleChild();
             DetermineScore();
         }
+
+        audioSource.PlayOneShot(audioSource.clip);
     }
 
     public void UpdateApproachCircleChildrenSorted(Transform approachCircleChildTransform)
