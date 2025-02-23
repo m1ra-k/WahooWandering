@@ -7,7 +7,7 @@
                 "npcSprite": [
                     "Transparent"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "DowntownOutsideBG",                
                 "dialogue": "Time to dominate the Decades Arcade! But first, where is it…?",
                 "textSpeed": 0
             },
@@ -20,7 +20,7 @@
                 "npcSprite": [
                     "Transparent"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownOutsideBG",
                 "dialogue": "...",
                 "textSpeed": 0
             },
@@ -43,7 +43,7 @@
                 "npcSprite": [
                     "Transparent"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownOutsideBG",
                 "dialogue": "No, that's too far.",
                 "textSpeed": 0
             },
@@ -56,7 +56,7 @@
                 "npcSprite": [
                     "Transparent"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownOutsideBG",
                 "dialogue": "...",
                 "textSpeed": 0
             },
@@ -75,7 +75,7 @@
                 "npcSprite": [
                     "Transparent"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "Alright, time to clean out the claw machines!",
                 "textSpeed": 0
             },
@@ -88,7 +88,7 @@
                 "npcSprite": [
                     "ArcadeWorkerNeutral"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "Hey there, welcome to Decades Arcade!",
                 "textSpeed": 0
             },
@@ -101,7 +101,7 @@
                 "npcSprite": [
                     "ArcadeWorkerNeutral"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "You here to conquer some old school cool or just soaking in the vibes?",
                 "textSpeed": 0
             },
@@ -114,7 +114,7 @@
                 "npcSprite": [
                     "ArcadeWorkerNeutral"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "Actually, I'm here to-",
                 "textSpeed": 0
             },
@@ -127,7 +127,7 @@
                 "npcSprite": [
                     "ArcadeWorkerNeutral"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "Cash in tickets for our grand prize??",
                 "textSpeed": 0
             },
@@ -140,7 +140,7 @@
                 "npcSprite": [
                     "ArcadeWorkerNeutral"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "If the grand prize is the limited-ti-",
                 "textSpeed": 0
             },
@@ -153,7 +153,7 @@
                 "npcSprite": [
                     "ArcadeWorkerDistraught"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "LIMITED-TIME TROLLEY SET?! NO PLEASE DON'T TAKE IT FROM ME!!",
                 "textSpeed": 0
             },
@@ -166,7 +166,7 @@
                 "npcSprite": [
                     "ArcadeWorkerNeutral"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "Oh… ummm. Sorry.",
                 "textSpeed": 0
             },
@@ -179,7 +179,7 @@
                 "npcSprite": [
                     "ArcadeWorkerNeutral"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "Uhhh… it's okay.",
                 "textSpeed": 0
             },
@@ -192,7 +192,7 @@
                 "npcSprite": [
                     "ArcadeWorkerNeutral"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "(Maybe I should head back early and tell the Lawnie they ran out…)",
                 "textSpeed": 0
             },
@@ -205,7 +205,7 @@
                 "npcSprite": [
                     "ArcadeWorkerDistraught"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "It's okay? It's okay?? So…",
                 "textSpeed": 0
             },
@@ -218,7 +218,7 @@
                 "npcSprite": [
                     "ArcadeWorkerHappy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "THAT MEANS YOU ALSO LIKE TROLLEYS?",
                 "textSpeed": 0
             },
@@ -231,7 +231,7 @@
                 "npcSprite": [
                     "ArcadeWorkerHappy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "Well, I-",
                 "textSpeed": 0
             },
@@ -244,7 +244,7 @@
                 "npcSprite": [
                     "ArcadeWorkerHappy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "FINALLY! ANOTHER TROLLEY ENTHUSIAST!!",
                 "textSpeed": 0
             },
@@ -257,7 +257,7 @@
                 "npcSprite": [
                     "ArcadeWorkerHappy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "DID YOU KNOW THAT DOWNTOWN USED TO HAVE A TROLLEY SYSTEM?",
                 "textSpeed": 0
             },
@@ -270,7 +270,7 @@
                 "npcSprite": [
                     "ArcadeWorkerHappy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "(I thought they still had a trolley…)",
                 "textSpeed": 0
             },
@@ -283,7 +283,7 @@
                 "npcSprite": [
                     "ArcadeWorkerHappy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "THE TOWN USED TO HAVE WIRES AND TRACKS ALL OVER THE PLACE!",
                 "textSpeed": 0
             },
@@ -296,7 +296,7 @@
                 "npcSprite": [
                     "ArcadeWorkerHappy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "YOU COULD HEAR THE BELL OF THE ELECTRIC TROLLEY RING AS IT PASSED BY!!",
                 "textSpeed": 0
             },
@@ -309,7 +309,7 @@
                 "npcSprite": [
                     "ArcadeWorkerHappy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "CAN YOU IMAGINE TAKING THE TROLLEY TO WORK? TO DECADES? TO DOWNTOWN?",
                 "textSpeed": 0
             },
@@ -322,7 +322,7 @@
                 "npcSprite": [
                     "ArcadeWorkerHappy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "Y-yeah, that's so co-",
                 "textSpeed": 0
             },
@@ -335,7 +335,7 @@
                 "npcSprite": [
                     "ArcadeWorkerHappy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "ISN'T THAT SO COOL?!!",
                 "textSpeed": 0
             },
@@ -348,7 +348,7 @@
                 "npcSprite": [
                     "ArcadeWorkerHappy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "Yeah… it is.",
                 "textSpeed": 0
             },
@@ -361,7 +361,7 @@
                 "npcSprite": [
                     "ArcadeWorkerNeutral"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "Anyway, if it's another trolley enthusiast trying to take the set home, I don't mind.",
                 "textSpeed": 0
             },
@@ -374,7 +374,7 @@
                 "npcSprite": [
                     "ArcadeWorkerHappy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "I'm sure she'll be in good hands with you.",
                 "textSpeed": 0
             },
@@ -387,7 +387,7 @@
                 "npcSprite": [
                     "ArcadeWorkerDistraught"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "(But I really wanted it!!!! It's okay, me,",
                 "textSpeed": 0
             },
@@ -400,7 +400,7 @@
                 "npcSprite": [
                     "ArcadeWorkerDistraught"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "you'll get a better trolley set someday.)",
                 "textSpeed": 0
             },
@@ -413,7 +413,7 @@
                 "npcSprite": [
                     "ArcadeWorkerDistraught"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "I'm actually here for the limited-time Cav Plushie event.",
                 "textSpeed": 0
             },
@@ -426,7 +426,7 @@
                 "npcSprite": [
                     "ArcadeWorkerDistraught"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "Is the event still going on?",
                 "textSpeed": 0
             },
@@ -439,7 +439,7 @@
                 "npcSprite": [
                     "ArcadeWorkerNeutral"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "Ohhhhh! Yess, there are a few left, but they're only obtainable from the claw machines.",
                 "textSpeed": 0
             },
@@ -452,7 +452,7 @@
                 "npcSprite": [
                     "ArcadeWorkerNeutral"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "The event gives you 3 minutes to win as many plushies as you can",
                 "textSpeed": 0
             },
@@ -465,7 +465,7 @@
                 "npcSprite": [
                     "ArcadeWorkerNeutral"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "before they're gone forever!",
                 "textSpeed": 0
             },
@@ -478,7 +478,7 @@
                 "npcSprite": [
                     "ArcadeWorkerDistraught"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "(Just like the Downtown trolley…)",
                 "textSpeed": 0
             },
@@ -491,7 +491,7 @@
                 "npcSprite": [
                     "ArcadeWorkerNeutral"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "Awesome--thank you so much!",
                 "textSpeed": 0
             },
@@ -504,7 +504,7 @@
                 "npcSprite": [
                     "ArcadeWorkerHappy"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "Best of luck, fellow trolley enthusiast!",
                 "textSpeed": 0
             },
@@ -517,7 +517,7 @@
                 "npcSprite": [
                     "Transparent"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "[I'll have to quickly press the button when it appears",
                 "textSpeed": 0
             },
@@ -530,7 +530,7 @@
                 "npcSprite": [
                     "Transparent"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "DowntownArcadeBG",
                 "dialogue": "to perfect the timing of the claw drop!]",
                 "textSpeed": 0
             },

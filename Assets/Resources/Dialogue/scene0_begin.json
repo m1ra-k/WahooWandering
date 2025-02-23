@@ -7,7 +7,7 @@
                 "npcSprite": [
                     "Transparent"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnGrassBG",                
                 "dialogue": "(Wow, the weather is so nice…)",
                 "textSpeed": 0
             },
@@ -20,7 +20,7 @@
                 "npcSprite": [
                     "Transparent"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnGrassBG",                
                 "dialogue": "(Lounging on the Lawn will be so nice.)",
                 "textSpeed": 0
             },
@@ -33,7 +33,7 @@
                 "npcSprite": [
                     "Transparent"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "[I walk up the stairs alongside the Lawn, when suddenly-]",
                 "textSpeed": 0
             },
@@ -46,7 +46,7 @@
                 "npcSprite": [
                     "Transparent"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "[-the door to Lawn room 53 swings open, almost hitting me in the face.]",
                 "textSpeed": 0
             },
@@ -59,7 +59,7 @@
                 "npcSprite": [
                     "Room53ResidentHappy"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "Hey, you!",
                 "textSpeed": 0
             },
@@ -72,7 +72,7 @@
                 "npcSprite": [
                     "Room53ResidentHappy"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": " Can you please do me a favor? Please, please, please??",
                 "textSpeed": 0
             },
@@ -85,7 +85,7 @@
                 "npcSprite": [
                     "Room53ResidentHappy"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "I-",
                 "textSpeed": 0
             },
@@ -98,7 +98,7 @@
                 "npcSprite": [
                     "Room53ResidentNeutral"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "Can you nab me a cone from Moo Thru at the Dairy Market?",
                 "textSpeed": 0
             },
@@ -111,7 +111,7 @@
                 "npcSprite": [
                     "Room53ResidentNeutral"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "I woulddd goooo, but it's just a bit far…",
                 "textSpeed": 0
             },
@@ -124,7 +124,7 @@
                 "npcSprite": [
                     "Room53ResidentNeutral"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "Oka-",
                 "textSpeed": 0
             },
@@ -137,7 +137,7 @@
                 "npcSprite": [
                     "Room53ResidentHappy"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "Thank you so much!!!",
                 "textSpeed": 0
             },
@@ -150,7 +150,7 @@
                 "npcSprite": [
                     "Room53ResidentHappy"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "Oh, and while you're at it, can you help my friend out too?",
                 "textSpeed": 0
             },
@@ -163,7 +163,7 @@
                 "npcSprite": [
                     "Room53ResidentHappy"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "She lives in room 19!",
                 "textSpeed": 0
             },
@@ -176,7 +176,7 @@
                 "npcSprite": [
                     "Room53ResidentHappy"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "(It's like an unskippable side quest…)",
                 "textSpeed": 0
             },
@@ -189,7 +189,7 @@
                 "npcSprite": [
                     "Transparent"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnGrassBG",                
                 "dialogue": "[I head to room 19 but before I could knock…]",
                 "textSpeed": 0
             },
@@ -202,7 +202,7 @@
                 "npcSprite": [
                     "Room19ResidentDistraught"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "WAAAAAHHH!! PLEASE YOU HAVE TO HELP ME!!",
                 "textSpeed": 0
             },
@@ -215,7 +215,7 @@
                 "npcSprite": [
                     "Room19ResidentDistraught"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "Umm, calm down… everything will be okay!",
                 "textSpeed": 0
             },
@@ -228,7 +228,7 @@
                 "npcSprite": [
                     "Room19ResidentDistraught"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "Can you please win me the limited-time Cav Plushie from Decades in Downtown Mall?",
                 "textSpeed": 0
             },
@@ -241,7 +241,7 @@
                 "npcSprite": [
                     "Room19ResidentDistraught"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "O-okay. Is that all?",
                 "textSpeed": 0
             },
@@ -254,7 +254,7 @@
                 "npcSprite": [
                     "Room19ResidentNeutral"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "Yeah…",
                 "textSpeed": 0
             },
@@ -267,7 +267,7 @@
                 "npcSprite": [
                     "Room19ResidentNeutral"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "Anything else…?",
                 "textSpeed": 0
             },
@@ -280,7 +280,7 @@
                 "npcSprite": [
                     "Room19ResidentHappy"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "Can you also help my friend? They live in the Secret 7 Room.",
                 "textSpeed": 0
             },
@@ -293,7 +293,7 @@
                 "npcSprite": [
                     "Room19ResidentHappy"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "Alright, I'll be back soon.",
                 "textSpeed": 0
             },
@@ -306,7 +306,7 @@
                 "npcSprite": [
                     "Room19ResidentHappy"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "Thank you so much!",
                 "textSpeed": 0
             },
@@ -319,7 +319,7 @@
                 "npcSprite": [
                     "Transparent"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnGrassBG",                
                 "dialogue": "(I hope this is the final room.)",
                 "textSpeed": 0
             },
@@ -332,7 +332,7 @@
                 "npcSprite": [
                     "Transparent"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "[I knock on the door labeled “07” and hear a voice from the inside.]",
                 "textSpeed": 0
             },
@@ -345,7 +345,7 @@
                 "npcSprite": [
                     "Transparent"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "Yes?",
                 "textSpeed": 0
             },
@@ -358,7 +358,7 @@
                 "npcSprite": [
                     "Transparent"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "I heard you needed help?",
                 "textSpeed": 0
             },
@@ -371,7 +371,7 @@
                 "npcSprite": [
                     "Transparent"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "Yes?",
                 "textSpeed": 0
             },
@@ -384,7 +384,7 @@
                 "npcSprite": [
                     "Transparent"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "So what do you need?",
                 "textSpeed": 0
             },
@@ -397,7 +397,7 @@
                 "npcSprite": [
                     "Transparent"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "Bodo's Bagels.",
                 "textSpeed": 0
             },
@@ -410,7 +410,7 @@
                 "npcSprite": [
                     "Transparent"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "What do you want me to order?",
                 "textSpeed": 0
             },
@@ -423,7 +423,7 @@
                 "npcSprite": [
                     "Transparent"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "Yes",
                 "textSpeed": 0
             },
@@ -436,7 +436,7 @@
                 "npcSprite": [
                     "Transparent"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "O-okay…",
                 "textSpeed": 0
             },
@@ -449,7 +449,7 @@
                 "npcSprite": [
                     "Transparent"
                 ],
-                "bgSprite": "Transparent",                
+                "bgSprite": "LawnDoorBG",                
                 "dialogue": "(Time to get these items… it'll be a good chance to explore more of C'ville!)",
                 "textSpeed": 0
             },
@@ -462,7 +462,7 @@
                 "npcSprite": [
                     "Transparent"
                 ],
-                "bgSprite": "Transparent",
+                "bgSprite": "LawnDoorBG",
                 "dialogue": "[Where to first?]",
                 "textSpeed": 0
             },
