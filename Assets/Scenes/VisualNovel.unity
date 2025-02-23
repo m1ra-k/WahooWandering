@@ -180,7 +180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: aafa057703da4cd49a21b409b293f4ae, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 16068274559683c44aac89906bb2f466, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -256,7 +256,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: aafa057703da4cd49a21b409b293f4ae, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 16068274559683c44aac89906bb2f466, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -332,7 +332,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: aafa057703da4cd49a21b409b293f4ae, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 16068274559683c44aac89906bb2f466, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -407,7 +407,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: aafa057703da4cd49a21b409b293f4ae, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 16068274559683c44aac89906bb2f466, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -820,9 +820,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChoicePrefab: {fileID: 6825419297089002386, guid: 759203b736621994898e17124540e33a, type: 3}
   textboxes:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 8a4dc3476b13c0141b05ffabda032e53, type: 3}
+  - {fileID: 21300000, guid: 8a4dc3476b13c0141b05ffabda032e53, type: 3}
+  - {fileID: 21300000, guid: 8a4dc3476b13c0141b05ffabda032e53, type: 3}
   color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &519420028
 GameObject:
@@ -1417,7 +1417,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: aafa057703da4cd49a21b409b293f4ae, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 16068274559683c44aac89906bb2f466, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1760,7 +1760,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: aafa057703da4cd49a21b409b293f4ae, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 16068274559683c44aac89906bb2f466, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1949,7 +1949,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67de8532546c1c74c8c85cc61532f076, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteCache: {fileID: 0}
+  spriteCache: {fileID: 11400000, guid: d931767469e51cb4eb82e1aa2411db84, type: 2}
   currentActiveNPC:
   - {fileID: 193052104}
   - {fileID: 61902084}
@@ -1959,28 +1959,22 @@ MonoBehaviour:
   - {fileID: 61902085}
   - {fileID: 44627793}
   oldActiveNPC:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1585669534}
+  - {fileID: 1623814095}
+  - {fileID: 240652995}
   currentActiveBG: {fileID: 1443816262}
   oldActiveBG: {fileID: 1235893317}
-  currentActiveCG: {fileID: 0}
-  oldActiveCG: {fileID: 0}
   currentPopupMC: {fileID: 1460063606}
   oldPopupMC: {fileID: 322999628}
-  normalBackground: {fileID: 0}
-  cgBackground: {fileID: 0}
-  cgStartTransition: {fileID: 0}
+  normalBackground: {fileID: 1443816262}
   normalDialogue: {fileID: 1609174455}
   normalDialogueRectTransform: {fileID: 1609174456}
   normalCharacterName: {fileID: 1587844514}
-  cgDialogue: {fileID: 0}
-  cgCharacterName: {fileID: 0}
   choiceBoxes: {fileID: 399753329}
   buttonClicked: 0
   choiceClicked: 0
   choiceMapping: -1
-  visualNovelJSONFile: {fileID: 0}
+  visualNovelJSONFile: {fileID: 4900000, guid: 1f4611ddac1fbbb44b7782f9f45a2d3c, type: 3}
   voices:
   - {fileID: 8300000, guid: cf0c936f8eaa091478af24a5bebbe56c, type: 3}
   - {fileID: 8300000, guid: f7dd502bd9a75a64b9690f936645b044, type: 3}
@@ -2098,14 +2092,6 @@ PrefabInstance:
       propertyPath: m_Alpha
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2757076324627688934, guid: da36ec69b8782a3459fc568574255cf7, type: 3}
-      propertyPath: m_Name
-      value: BlackTransition
-      objectReference: {fileID: 0}
-    - target: {fileID: 2757076324627688934, guid: da36ec69b8782a3459fc568574255cf7, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4444946307903869599, guid: 1f3196194e70bd143ba8f8728246fb45, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -2121,6 +2107,18 @@ PrefabInstance:
     - target: {fileID: 5596013619889861975, guid: 1f3196194e70bd143ba8f8728246fb45, type: 3}
       propertyPath: m_SizeDelta.y
       value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 9066374284392307520, guid: 1f3196194e70bd143ba8f8728246fb45, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2757076324627688934, guid: da36ec69b8782a3459fc568574255cf7, type: 3}
+      propertyPath: m_Name
+      value: BlackTransition
+      objectReference: {fileID: 0}
+    - target: {fileID: 2757076324627688934, guid: da36ec69b8782a3459fc568574255cf7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8067632750021942381, guid: da36ec69b8782a3459fc568574255cf7, type: 3}
       propertyPath: m_Pivot.x
@@ -2201,10 +2199,6 @@ PrefabInstance:
     - target: {fileID: 8067632750021942381, guid: da36ec69b8782a3459fc568574255cf7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9066374284392307520, guid: 1f3196194e70bd143ba8f8728246fb45, type: 3}
-      propertyPath: m_Sprite
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

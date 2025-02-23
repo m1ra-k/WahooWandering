@@ -1,5 +1,3 @@
-// BURGER
-
 using System;
 
 [Serializable]

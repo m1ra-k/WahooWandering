@@ -3,24 +3,24 @@ using System.ComponentModel;
 
 public enum CharacterEnum
 {
-    Tubby,
-    Nana,
-    Lacey,
-    Yaning,
-    [Description("Bloody Manager")]
-    BloodyManager,
-    [Description("Fries Manager")]
-    FriesManager,
-    [Description("Spaghetti Worker")]
-    SpaghettiWorker,
-    [Description("Jolly Worker")]
-    JollyWorker,
-    [Description("Rat Worker")]
-    RatWorker,
-    [Description("Kitty Employee")]
-    KittyEmployee,
-    [Description("Flashy Lady")]
-    FlashyLady // to change | also adding more when names finalized
+    [Description("Joy")]
+    MainCharacter,
+    [Description("Room 53 Girl")]
+    Room53Resident,
+    [Description("Room 19 Girl")]
+    Room19Resident,
+    [Description("Room 07 Girl")]
+    Room07Resident,
+    [Description("Overworked Baker")]
+    BodosWorker,
+    [Description("Trolley Fanatic")]
+    DecadesWorker,
+    [Description("Fashionable Singer")]
+    BandMember1,
+    [Description("Emo Drummer")]
+    BandMember2,
+    [Description("Masked Guitarist")]
+    BandMember3
 }
 
 public static class EnumExtensions

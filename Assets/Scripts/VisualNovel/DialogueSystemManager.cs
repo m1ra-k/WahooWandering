@@ -1,4 +1,3 @@
-// BURGER
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,21 +17,15 @@ public class DialogueSystemManager : MonoBehaviour
     public GameObject[] oldActiveNPC;
     public GameObject currentActiveBG;
     public GameObject oldActiveBG;
-    public GameObject currentActiveCG;
-    public GameObject oldActiveCG;
     public GameObject currentPopupMC;
     public GameObject oldPopupMC;
     public GameObject normalBackground;
-    public GameObject cgBackground;
-    public GameObject cgStartTransition;
     
     // dialogue box
     public GameObject normalDialogue;
     public RectTransform normalDialogueRectTransform;
     private float targetNormalDialogueWidth;
     public GameObject normalCharacterName;
-    public GameObject cgDialogue;
-    public GameObject cgCharacterName;
 
     // choice boxes
     public GameObject choiceBoxes;
@@ -138,13 +131,7 @@ public class DialogueSystemManager : MonoBehaviour
     void Update()
     {
         // TODO: make sure to support saving on choice menu
-        if ((Input.GetKeyDown(KeyCode.Space) || buttonClicked || choiceClicked) && !spaceDisabled
-            && 
-            (
-                ((currentBaseDialogue.vnType == VNTypeEnum.Choice || currentBaseDialogue.vnType == VNTypeEnum.Normal) && normalBackground.GetComponent<Image>().color.a == 1)
-            || 
-                ((currentBaseDialogue.vnType == VNTypeEnum.CGAndChoice || currentBaseDialogue.vnType == VNTypeEnum.CG) && cgBackground.GetComponent<Image>().color.a == 1))
-            ) 
+        if ((Input.GetKeyDown(KeyCode.Space) || buttonClicked || choiceClicked) && !spaceDisabled && (currentBaseDialogue.vnType == VNTypeEnum.Choice || currentBaseDialogue.vnType == VNTypeEnum.Normal) && normalBackground.GetComponent<Image>().color.a == 1) 
         { 
             if (currentDialogue.endOfScene && !transitioningScene)
             {
@@ -316,29 +303,14 @@ public class DialogueSystemManager : MonoBehaviour
 
         bool atStart = dialogueIndexToUse == 0;
         
-        // if the very first dialogue is not CG, we don't want the black transition
-        if (atStart && baseDialogue.vnType != VNTypeEnum.CG && baseDialogue.vnType != VNTypeEnum.CGAndChoice)
-        {
-            cgStartTransition.GetComponent<Image>().color = new Color(1, 1, 1, 0); 
-        }
+        // // if the very first dialogue is not CG, we don't want the black transition
+        // if (atStart && baseDialogue.vnType != VNTypeEnum.CG && baseDialogue.vnType != VNTypeEnum.CGAndChoice)
+        // {
+        //     cgStartTransition.GetComponent<Image>().color = new Color(1, 1, 1, 0); 
+        // }
 
         if (baseDialogue.vnType != VNTypeEnum.CG && baseDialogue.vnType != VNTypeEnum.CGAndChoice) 
         {
-            if (isPreviousVnTypeCG) 
-            {
-                oldActiveCG.SetActive(false);
-
-                // CG - BG
-                Sprite normalBackgroundSprite = normalBackground.GetComponent<Image>().sprite;
-                Sprite cgBackgroundSprite = cgBackground.GetComponent<Image>().sprite;
-
-                if (!cgBackgroundSprite.ToString().Equals(normalBackgroundSprite.ToString())) 
-                {
-                    StartCoroutine(Fade(cgBackground, cgBackgroundSprite, 1, -1));
-                    StartCoroutine(Fade(normalBackground, normalBackgroundSprite, 0, 1));
-                }
-            }
-
             for (int i = 0; i < baseDialogue.npcSprite.Count; i++)
             {
                 Sprite oldActiveNPCSprite = currentActiveNPC[i].GetComponent<Image>().sprite;
@@ -391,49 +363,6 @@ public class DialogueSystemManager : MonoBehaviour
                 }
             }
         }
-        else 
-        {
-            if (!isPreviousVnTypeCG) 
-            {
-                oldActiveCG.SetActive(true);
-
-                // BG - CG
-                if (atStart) 
-                {
-                    Color normalBackgroundColor = normalBackground.GetComponent<Image>().color;
-                    normalBackground.GetComponent<Image>().color = new Color(normalBackgroundColor.r, normalBackgroundColor.g, normalBackgroundColor.b, 0);
-                }
-
-                Sprite normalBackgroundSprite = normalBackground.GetComponent<Image>().sprite;
-                Sprite cgBackgroundSprite = spriteCache.sprites[baseDialogue.cgSprite.ToString()];
-
-                if (!cgBackgroundSprite.ToString().Equals(normalBackgroundSprite.ToString())) {
-                    if (!atStart) 
-                    {
-                        StartCoroutine(Fade(normalBackground, normalBackgroundSprite, 1, -1)); // fade out
-                    }
-                    StartCoroutine(Fade(cgBackground, cgBackgroundSprite, 0, 1, speed: 0.025f)); // fade in
-                } 
-            }
-            else
-            {
-                // CG
-                Sprite oldActiveCGSprite = currentActiveCG.GetComponent<Image>().sprite;
-                Sprite newActiveCGSprite = spriteCache.sprites[baseDialogue.cgSprite.ToString()];
-
-                if (!oldActiveCGSprite.ToString().Equals(newActiveCGSprite.ToString())) 
-                {
-                    if (atStart)
-                    {
-                        currentActiveCG.GetComponent<Image>().sprite = newActiveCGSprite;
-                    }
-                    else
-                    {
-                        StartCoroutine(Fade(currentActiveCG, newActiveCGSprite, 0, 1));
-                    }
-                }
-            }
-        }
 
         // MC
         Sprite oldPopupSpeakerSprite = currentPopupMC.GetComponent<Image>().sprite;
@@ -469,15 +398,6 @@ public class DialogueSystemManager : MonoBehaviour
 
         if (baseDialogue.vnType != VNTypeEnum.CG && baseDialogue.vnType != VNTypeEnum.CGAndChoice)
         { 
-            Color cgInvisibleColor = cgCharacterName.GetComponent<TextMeshProUGUI>().color;
-            cgInvisibleColor.a = 0;
-
-            // set character name
-            cgCharacterName.GetComponent<TextMeshProUGUI>().color = cgInvisibleColor;
-
-            // set dialogue
-            cgDialogue.GetComponent<TextMeshProUGUI>().color = cgInvisibleColor;
-
             // set character name
             normalCharacterName.GetComponent<TextMeshProUGUI>().text = baseDialogue.character.GetParsedName();
 
@@ -502,30 +422,13 @@ public class DialogueSystemManager : MonoBehaviour
                 // set dialogue
                 normalDialogue.GetComponent<TextMeshProUGUI>().text = baseDialogue.dialogue;
             }
-            else
-            {
-                // set character name
-                cgCharacterName.GetComponent<TextMeshProUGUI>().text = baseDialogue.character.GetParsedName();
-
-                // set dialogue
-                cgDialogue.GetComponent<TextMeshProUGUI>().text = baseDialogue.dialogue;
-
-                // set dialogue
-                typeWriterCoroutine = StartCoroutine(TypeWriterEffect(baseDialogue.character.ToString(), baseDialogue.dialogue, inCG: true));
-
-                // set character name
-                StartCoroutine(Fade(cgCharacterName, null, 0, 1)); // fade in
-
-                // set dialogue
-                StartCoroutine(Fade(cgDialogue, null, 0, 1)); // fade in
-            }
         }
     }
 
     void SkipTypeWriterEffect(bool inCG = false) 
     {
         StopCoroutine(typeWriterCoroutine);
-        TextMeshProUGUI normalDialogueTextMeshProUGUI = inCG ? cgDialogue.GetComponent<TextMeshProUGUI>() : normalDialogue.GetComponent<TextMeshProUGUI>();
+        TextMeshProUGUI normalDialogueTextMeshProUGUI = normalDialogue.GetComponent<TextMeshProUGUI>();
         normalDialogueTextMeshProUGUI.text = dialogueOnDisplay;
         typeWriterInEffect = false;
     }
@@ -539,11 +442,11 @@ public class DialogueSystemManager : MonoBehaviour
         return 0.005f; // default
     }
 
-    IEnumerator TypeWriterEffect(string character, string dialogue, bool inCG = false)
+    IEnumerator TypeWriterEffect(string character, string dialogue)
     {
         typeWriterInEffect = true;
 
-        TextMeshProUGUI normalDialogueTextMeshProUGUI = inCG ? cgDialogue.GetComponent<TextMeshProUGUI>() : normalDialogue.GetComponent<TextMeshProUGUI>();
+        TextMeshProUGUI normalDialogueTextMeshProUGUI = normalDialogue.GetComponent<TextMeshProUGUI>();
         
         for (int i = 0; i <= dialogue.Length; i++) 
         {
@@ -659,8 +562,6 @@ public class DialogueSystemManager : MonoBehaviour
             }
             yield return null;
         }
-
-        cgStartTransition.GetComponent<Image>().color = new Color(0, 0, 0, 0);
     }
 
     public void OnClickForwardButton() 

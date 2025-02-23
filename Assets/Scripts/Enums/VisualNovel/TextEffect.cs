@@ -1,5 +1,3 @@
-// BURGER
-
 public enum TextEffect
 {
     TypeWriter,
