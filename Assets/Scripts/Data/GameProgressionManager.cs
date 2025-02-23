@@ -72,11 +72,8 @@ public class GameProgressionManager : MonoBehaviour
     {
         // print(scene.name);
 
-        if (!scene.name.Contains("Puzzle"))
-        {
-            blackTransition = GameObject.Find("Canvas").transform.Find("BlackTransition").gameObject;
-            fadeEffect.FadeOut(blackTransition, 0.5f);
-        }
+        blackTransition = GameObject.Find("Canvas").transform.Find("BlackTransition").gameObject;
+        fadeEffect.FadeOut(blackTransition, 0.5f);
     }
         
     public void TransitionScene(string possibleFlag)
@@ -169,6 +166,7 @@ public class GameProgressionManager : MonoBehaviour
                     break;
             }
 
+            print("finished dairy market");
             fadeEffect.FadeIn(blackTransition, fadeTime: 0.5f, scene: "VisualNovel");
         }
     }
